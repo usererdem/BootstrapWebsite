@@ -1,2 +1,2 @@
 # BootstrapWebsite
-A website for Scissors https://usererdem.github.io/BootstrapWebsite/
+Scissors Website https://usererdem.github.io/BootstrapWebsite/
