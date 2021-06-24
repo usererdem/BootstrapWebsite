@@ -1,0 +1,91 @@
+#title {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.50)), url(../images/pexels-nick-demou-1319460.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* -----------------Typography----------------- */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/* -----------------Navbar----------------- */
+.container-fluid {
+    padding: 1% 12%;
+}
+
+.navbar {
+    margin-bottom: 14rem;
+}
+
+.logo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    margin: 10px 30px;
+    font-size: 1.3rem;
+}
+
+
+/* Download button */
+.btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* -----------------Features----------------- */
+#features {
+    padding: 7% 15%;
+}
+
+.feature-container {
+    text-align: center;
+    padding: 5%;
+    line-height: 1.7;
+    /* margin: 3rem auto; */
+}
+
+.feature-icon {
+    color: #e67e22;
+    margin-bottom: 1.5rem;
+    transition: all 0.2s;
+}
+
+.feature-icon:hover {
+    color: #f39c12;
+}
+
+.feature-icon-small {
+    font-size: 30px;
+}
+
+.features-p {
+    color: #8f8f8f;
+}
+
+.features-p a {
+    text-decoration: none;
+    color: #e67e22;
+}
+
+.features-p a:hover{
+    color:#f39c12;
+}
