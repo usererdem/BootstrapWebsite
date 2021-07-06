@@ -12,7 +12,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-h1 {
+h1, h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 3rem;
@@ -22,7 +22,7 @@ h1 {
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 1.5rem;
 }
 
@@ -155,7 +155,7 @@ h3 {
 }
 
 .features-p {
-  color: rgb(80, 77, 77);
+  color: #504d4d;
 }
 
 .features-p a {
@@ -166,3 +166,75 @@ h3 {
 .features-p a:hover {
   color: #f39c12;
 }
+
+/* -----------------Products----------------- */
+#products {
+  text-align: center;
+}
+
+.product-heading {
+  color: #fff;
+}
+
+.product-image {
+  height: 550px;
+  border-radius: 10%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.background-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(../images/scissors.jpg);
+}
+
+.background-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(../images/brushes.jpg);
+  background-color: #DEDEDC;
+}
+
+.background-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(../images/haircream.jpg);
+  background-color: #DEDEDC;
+}
+
+.carousel-arrows {
+  background-color: #e67e22;
+  border-radius: 30px;
+  width: 5rem;
+  height: 5rem;
+}
+
+.product-link {
+  width: 50%;
+  text-decoration: none;
+  color: #fff;
+  text-align: Center;
+  display: block;
+  margin: 300px auto 30px;
+  border: 2px solid #e67e22;
+  font-size: 2.5rem;
+  font-weight: 900;
+  transition: all 0.4s;
+}
+
+.product-link-1 {
+  display: block;
+}
+
+.product-link:hover {
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.product-heading{
+  font-size: 2rem;
+}
+
+/* -----------------ContactUs----------------- */
