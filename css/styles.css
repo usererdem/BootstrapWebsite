@@ -172,24 +172,6 @@ h3 {
   text-align: center;
 }
 
-.product-heading {
-  color: #fff;
-}
-
-.product-image {
-  height: 550px;
-  border-radius: 10%;
-}
-
-.carousel-item {
-  padding: 7% 15%;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
 .background-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(../images/scissors.jpg);
 }
@@ -202,6 +184,20 @@ h3 {
 .background-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(../images/haircream.jpg);
   background-color: #DEDEDC;
+}
+
+.product-heading {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .carousel-arrows {
@@ -217,15 +213,11 @@ h3 {
   color: #fff;
   text-align: Center;
   display: block;
-  margin: 300px auto 30px;
+  margin: 265px auto 30px;
   border: 2px solid #e67e22;
   font-size: 2.5rem;
   font-weight: 900;
   transition: all 0.4s;
-}
-
-.product-link-1 {
-  display: block;
 }
 
 .product-link:hover {
@@ -233,8 +225,93 @@ h3 {
   background-color: #e67e22;
 }
 
-.product-heading{
-  font-size: 2rem;
+/* -----------------Subscribe----------------- */
+#subscribe {
+  margin: 5rem 5rem; 
 }
 
-/* -----------------ContactUs----------------- */
+.subscription-heading {
+  text-align: center;
+  color: #101d2c;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.card-header {
+  text-align: center;
+}
+.sub-icon {
+  color: green;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.sub-icon-red {
+  color: red;
+}
+
+.subscription-price {
+  color: #101d2c;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.pricing-btn {
+  background-color: #101d2c;
+}
+
+.marginbottom-small {
+  margin-bottom: 2.5rem;
+}
+
+/* -----------------Footer----------------- */
+.footer {
+  background-color: #101d2c;
+  grid-column: full-start / full-end;
+  padding: 5rem;
+}
+
+.nav {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 2rem;
+  align-items: center;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  display: block;
+}
+
+.nav__link:link, .nav__link:visited {
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.5rem;
+  display: block;
+  transition: all 0.2s;
+}
+.nav__link:hover, .nav__link:active {
+  background-color: rgba(255, 255, 255, .05);
+  transform: translateY(-3px);
+}
+.copyright {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-top: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 70%;
+}
+
+@media only screen and (max-width: 1028px) {
+  .card {
+    max-width: none;
+  }
+}
